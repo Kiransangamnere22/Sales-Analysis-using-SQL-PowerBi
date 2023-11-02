@@ -57,7 +57,7 @@ If you plot Month on x-axis, make sure the months are sorted from Jan-Dec.
 ## Insights:
 
 #### 1.We received a total revenue of $126.01 million, and the gross profit for this revenue is $86.89 million.
-#### 2.Sum of Total Revenue for Special (81.23M) was higher than General (44.41M).
+#### 2. We have Two categories (Special and General),Sum of Total Revenue for Special (81.23M) was higher than General (44.41M).
 #### 3.Special accounted for 64.46% of Sum of Total Revenue.
 #### 4.At 32.10M, 3 had the highest  Total Revenue and was 4.37% higher than 1, which had the lowest  Total Revenue at 30.75M
 #### 5.Across all 4 Qtr, Sum of Total Revenue ranged from 30.76M to 32.10M
