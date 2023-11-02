@@ -2,7 +2,7 @@
 
 # Business / Functional Requirement Document
 
-# 1.	Data Gathering / Requirement:
+# 1.Data Gathering / Requirement:
 Assemble a sales reports with different visuals to best show the Sales Insights in one page Dashboard. Feel free to use your imagination to best represent the data you have available.
 
 1.	Sales (folder by year)
@@ -12,13 +12,13 @@ Assemble a sales reports with different visuals to best show the Sales Insights 
 5.	SalesRep (Excel)
 6.	SubCategories (Excel)
 
-# Task 1.1:
+## Task 1.1:
 Create a mechanism to load all the files from the sales folder in a single Sales fact table.
 The mechanism needs to be resilient as:
 	-removing a file from the sales folder does not create an error for missing files.
 	-adding a new yearly sales file will automatically be loaded in the fact query upon refresh.
 
-# 2.	Data Modeling:
+## 2.	Data Modeling:
 Task 2.1: 
 Do the respective transformations to the Sales fact table in order to split the Country form the City in field “Location”. Make sure you set up the correct Data Type to allow Geo maps.
 Do the necessary updates in the Date field to make sure you can setup the Date format.
@@ -32,7 +32,7 @@ Create a small function that removes the “ID - ” part of these columns that 
 Task 2.4: 
 Create the Data Model connecting all tables and using the Calendar table already set up in the pbix.
 
-# 3.	DAX calculations
+##3.	DAX calculations
 Task 3.1:
 Calculate Total Revenue in Sales table, using the Product’s Retail Price, and multiplying it by the Units.
 Formula =[Total Revenue = Sales[units] * Realated(product[Reatail Price]]
