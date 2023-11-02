@@ -2,7 +2,7 @@
 
 # Business / Functional Requirement Document
 
-# 1.Data Gathering / Requirement:
+### 1.Data Gathering / Requirement:
 Assemble a sales reports with different visuals to best show the Sales Insights in one page Dashboard. Feel free to use your imagination to best represent the data you have available.
 
 1.	Sales (folder by year)
